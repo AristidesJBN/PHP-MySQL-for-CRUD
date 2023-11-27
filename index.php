@@ -46,6 +46,10 @@
                             include("salvar-usuario.php");
                             break;
 
+                          case "editar":
+                            include("editar-usuario.php");
+                            break;
+
                           default:
                           print "<h1>Olá!</h1>";
                       }
